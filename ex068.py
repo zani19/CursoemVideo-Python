@@ -1,7 +1,7 @@
 from random import randint
 v = 0
 print('-='*30)
-print('VAMOR JOGAR PAR OU IÍMPAR?')
+print('VAMOR JOGAR PAR OU ÍMPAR?')
 print('-='*30)
 while True:
     jogador = int(input('Digite um número: '))

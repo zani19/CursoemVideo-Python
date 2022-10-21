@@ -11,16 +11,5 @@ while True:
         menor = preço
         barato = nome
     continuar = ' '
-    while continuar not in 'SN':
-        continuar = str(input('Deseja continuar? [S/N] ')).upper()[0].strip()
-    if continuar == 'N':
-        break
+    
 print(f'Total gasto: R$ {soma:.2f}\n{caro} produtos custaram mais de R$1000\nO produto mais barato foi {barato.upper()} e custou R$ {menor:.2f}')
-
-""" if quant == 1:
-        maior = menor = n
-    else:
-        if n > maior:
-            maior = n
-        if n < menor:
-            menor = n    """
